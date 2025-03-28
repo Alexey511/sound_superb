@@ -253,7 +253,7 @@ if __name__ == '__main__':
     number_of_train_batches = len(train_dataset) // batch_size + 1
     number_of_test_batches = len(test_dataset) // batch_size + 1
 
-    print_every_train = max(1, number_of_train_batches // 10) # Количество батчей для вывода (каждые 5%)
+    print_every_train = max(1, number_of_train_batches // 10) # Количество батчей для вывода (каждые 10%)
     print_every_test = max(1, number_of_test_batches // 10) 
 
     start_time = time.time()
