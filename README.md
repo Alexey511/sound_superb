@@ -7,11 +7,11 @@
 
 ## Результаты
 - Recall: ~0.98 на целевых классах
-- Метрики: Recall, Precision, F1 по классам, Confusion Matrix
+- Метрики: Recall, Precision, F1 по классам, Confusion Matrix (см 4_sound_results.ipynb)
 
 ## Структура
 - 4_sound_eda.ipynb: Анализ данных (баланс классов, обработка длительности, создание спектрограмм)
-- 4_sound_multiprocessing_NN.py: Создание даталоадера, обучение CNN. Чистый питон из-за использования многопоточности.
+- 4_sound_multiprocessing_NN.py: Создание даталоадера, обучение CNN. .py из-за использования многопоточности.
 - 4_sound_results.ipynb: Визуализация метрик (accuracy, recall, precision, F1, confusion matrix)
 - Папки с датасетом, спектрограммами и результатами не выгружены (весят ~100гб).
 
