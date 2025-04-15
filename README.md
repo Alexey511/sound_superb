@@ -24,7 +24,7 @@
 - sklearn
 - datasets
 - tqdm
-- Базовые библиотеки python
+- стандартные библиотеки python
 
 ## Датасет
 - Использован датасет SUPERB (Speech processing Universal PERformance Benchmark)
