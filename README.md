@@ -7,7 +7,7 @@
 
 ## Результаты
 - Recall: ~0.98 на целевых классах
-- Метрики: Recall, Precision, F1 по классам, Confusion Matrix
+- Метрики: Recall, Precision, F1 по классам, Confusion Matrix (см 4_sound_results.ipynb)
 
 ## Структура
 - 4_sound_eda.ipynb: Анализ данных (баланс классов, обработка длительности, создание спектрограмм)
