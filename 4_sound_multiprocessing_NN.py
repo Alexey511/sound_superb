@@ -25,9 +25,13 @@ VALIDATION_FOLDER = os.path.join(PROJECT_FOLDER, 'validation_folder')
 TEST_FOLDER = os.path.join(PROJECT_FOLDER, 'test_folder')
 COMMON_FILES_FOLDER = os.path.join(PROJECT_FOLDER, 'common_files_folder')
 
-LEARNING_RESULTS_FOLDER = os.path.join(PROJECT_FOLDER, 'learning_results_1_folder')
-if not os.path.isdir(LEARNING_RESULTS_FOLDER):
-   os.makedirs(LEARNING_RESULTS_FOLDER)
+RESULTS_FOLDER = os.path.join(PROJECT_FOLDER, 'results_folder')
+if not os.path.isdir(RESULTS_FOLDER):
+   os.makedirs(RESULTS_FOLDER)
+
+CURRENT_RESULTS_FOLDER = os.path.join(PROJECT_FOLDER, 'results_folder', 'results_1_folder')
+if not os.path.isdir(CURRENT_RESULTS_FOLDER):
+   os.makedirs(CURRENT_RESULTS_FOLDER)
 
 GENERAL_FILE_TRAIN_PATH = os.path.join(TRAIN_FOLDER, 'general_file')
 GENERAL_FILE_VALIDATION_PATH = os.path.join(VALIDATION_FOLDER, 'general_file')
